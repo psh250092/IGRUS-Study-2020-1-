@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <body>
+    <form action="form.php" method="post">
+      <p><input type="text" name="title" placeholder="Title"></p>
+      <p><textarea name="description"></textarea></p>
+      <p><input type="submit"></p>
+    </form>
+  </body>
+</html>
+
+<!--
+
+Form : 서버에 정보를 보낼 수 있는 태그
+input : 사용자의 입력을 받는 부분
+type : 입력의 타입
+playceholder : 비어있을 때, 대신 나타낼 텍스트
+action : 데이터를 보낼 주소
+textarea : 여러줄을 입력할 수 있는 입력폼
+
+$_GET[] : 연관배열
+file_put_contents(경로, 내용)
+method : 변수를 보내는 방법, 기본값은 get
+(get : URI이 담아서; post : 숨겨서 전송 (http프로토콜 body에 담아서))
+-->
