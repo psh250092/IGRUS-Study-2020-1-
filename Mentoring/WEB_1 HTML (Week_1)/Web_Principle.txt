@@ -1,0 +1,7 @@
+팀 버너스리 : 2개의 컴퓨터를 장만
+1. Web Browser
+2. Web Server (index.html)
+
+1. 클라이언트가 http://info.cern.ch에 index.html이라는 파일을 요청 (Request)
+2. 서버가 index.html이라는 파일을 찾아 전달                        (Response)
+3. 클라이언트의 Web Browser가 파일을 해석해 화면에 표시
