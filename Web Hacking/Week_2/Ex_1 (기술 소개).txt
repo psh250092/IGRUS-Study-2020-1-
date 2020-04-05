@@ -1,0 +1,5 @@
+1. HTML
+HTML = HyperText Markup Language
+
+언어란? 약속이다. (모두가 같은 의미로 받아들이기로 약속한 표현)
+HTML이란, 웹브라우저와 사용자 사이의 언어
