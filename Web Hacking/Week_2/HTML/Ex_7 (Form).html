@@ -1,0 +1,45 @@
+<!--
+
+Form : 정보를 보내기 위한 태그
+action : 보낼 사이트
+method : 보낼 방법
+
+텍스트 입력
+type = "text" or "password", value로 default 설정
+<textarea> 컨텐츠로 default 설정
+콤보박스
+<select>, <option value = "">
+사용
+</select>
+
+버튼
+<type = "button">
+onclick, value
+<type = "submit">
+<type = "reset">
+
+히든
+데이터 전송
+레이블
+<label>, for 속성
+
+method : get, post
+
+파일 업로드
+input = "file"
+enctype = "multipart/form-data" & method = post 필수
+-->
+
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+<form action="http://localhost/login.php">
+    <p>아이디 : <input type="text" name="id"></p>
+    <p>비밀번호 : <input type="password" name="pwd"></p>
+    <p>주소 : <input type="text" name="address"></p>
+    <input type="submit">
+</form>
+</body>
+</html>
