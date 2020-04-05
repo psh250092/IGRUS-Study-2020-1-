@@ -1,0 +1,52 @@
+1. 전체 코드
+
+
+<html>
+    <head>
+        <title>Under construction</title>
+        <link rel='stylesheet' property='stylesheet' type='text/css' href='style.css' media='all' />
+    </head>
+   <body><link rel='stylesheet' property='stylesheet' id='s' type='text/css' href='/template/s.css' media='all' /><iframe id='iframe' src='https://www.root-me.org/?page=externe_header'></iframe>
+        <h1>Website temporarily closed.</h1>
+        <hr>
+
+        <form action="" method="post" name="authform">
+            <div>
+                <input disabled type="text" name="auth-login" value="" />
+                <input disabled type="submit" value="Member access" name="authbutton" />
+            </div>
+        </form>
+            </body>
+</html>
+
+
+2. 코드 분석
+
+
+<html>
+    <head>
+        <title>Under construction</title>
+        <link rel='stylesheet' property='stylesheet' type='text/css' href='style.css' media='all' />		<!-- CSS 파일을 가져오는 부분-->
+    </head>
+   <body><link rel='stylesheet' property='stylesheet' id='s' type='text/css' href='/template/s.css' media='all' /><iframe id='iframe' src='https://www.root-me.org/?page=externe_header'></iframe>
+        <h1>Website temporarily closed.</h1>
+        <hr>
+
+        <form action="" method="post" name="authform">
+            <div>
+                <input disabled type="text" name="auth-login" value="" />			<!-- 여기서 disabled type = "text"-->
+                <input disabled type="submit" value="Member access" name="authbutton" />	<!-- 속성으로 인하여 버튼이 비활성화되었다.-->
+            </div>
+        </form>
+            </body>
+</html>
+
+3. 해결 과정
+
+1. 크롬의 F12를 눌러, 개발자도구를 연다. HTML 소스를 확인할 수 있다.
+
+2. 해당 코드에서 Edit as HTML 또는 F2를 눌러 버튼의 disabled 속성을 지운다.
+
+3. HTML Form에 아무 문자열 (필자의 경우는 Hello World!) 삽입하였다.
+
+4. 그러면 웹사이트는 pwned 되면서 Validation코드인 HTMLCantStopYou를 얻을 수 있다.
