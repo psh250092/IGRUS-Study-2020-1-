@@ -1,0 +1,74 @@
+1. 전체 코드
+
+
+
+<html><body><link rel='stylesheet' property='stylesheet' id='s' type='text/css' href='/template/s.css' media='all' /><iframe id='iframe' src='https://www.root-me.org/?page=externe_header'></iframe>
+
+<!--
+
+Bienvenue sur ce portail,
+Welcome on this portal,
+
+J'espère que vous passerez un agréable moment parmi nous, mais surtout que vous repartirez plein de choses dans la tête...
+I hope that you will enjoy your time among us, and above that all you will leave with lots of things in the head ...
+
+@ très bientôt
+See ya
+
+-->
+<h1>Login v0.00001</h1>
+
+<form>
+    Password&nbsp;<input type="password" value="" name="password"/><br/>
+    <input type="submit" value="login" />
+</form>
+
+<!--
+Je crois que c'est vraiment trop simple là !
+It's really too easy !
+password : nZ^&@q5&sjJHev0
+
+-->
+
+</body></html>
+
+
+2. 코드 분석
+
+<html><body><link rel='stylesheet' property='stylesheet' id='s' type='text/css' href='/template/s.css' media='all' /><iframe id='iframe' src='https://www.root-me.org/?page=externe_header'></iframe>
+
+<!--
+의
+미
+없
+는
+주
+석
+(1)
+-->
+<h1>Login v0.00001</h1>
+
+<form>
+    Password&nbsp;<input type="password" value="" name="password"/><br/> <!-- 이 곳이 패스워드를 입력하는 Form 창이다.-->
+    <input type="submit" value="login" />
+</form>
+
+<!--
+Je crois que c'est vraiment trop simple là !
+It's really too easy !
+password : nZ^&@q5&sjJHev0
+
+// ......................................
+// ㅇㅅㅇ;;;;;;;;;;;;;;;;
+
+-->
+
+</body></html>
+
+3. 해결 과정
+
+1. 대놓고 주석에 비밀번호가 nZ^&@q5&sjJHev0라고 적혀있는 것을 볼 수 있다.
+
+2. Form에 주석에 적힌 비밀번호를 입력한다.
+
+3. 웹페이지가 이동되면서, 주석에 적힌 비밀번호가 Validation Code라고 알려준다.
