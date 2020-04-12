@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script src="Ex_5.js"></script>
+    </head>
+    <body>
+        <script>
+          var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};
+          alert(grades.sorialgi);
+          alert(welcome());
+
+          var pattern = /a/
+          console.log(pattern.exec('abcdef')); // ["a"]
+          console.log(pattern.test('bcdefg')); // false
+          console.log('abcdef'.match(pattern));
+          console.log('abcdef'.replace(pattern, 'A'));  // Abcdef
+        </script>
+    </body>
+</html>
+
+<!--
+
+  객체 : 파이썬의 Dictionary와 같은 것
+  {key : val} 형
+  Val에는 리스트나 함수가 오는 것도
+
+  모듈 : 반복되는 함수등의 파일을 따로 분리하여 별도의 문서로 만든 것
+  라이브러리 : 비슷한 기능들을 하는 모듈을 모아놓은 것
+
+  정규표현식 - 문자열에서 특정한 문자를 찾아내는 도구
+  컴파일
+  1. 정규표현식 리터럴 : var pattern = /a/
+  2. 정규표현식 객체 생성자 : var pattern = new RegExp('a');
+
+  정규표현식 실행
+  exec(배열 반환), test(Boolean 반환)
+
+  문자열 실행
+  .match, .replace
+
+  플래그 : i(대소구분X) g(모든 결과)
+
+-->
