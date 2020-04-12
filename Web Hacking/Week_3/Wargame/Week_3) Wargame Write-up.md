@@ -88,11 +88,11 @@
 
 
 
-![w3_2](.\img\w3_2.png)
+![w3_2](img/w3_2.png)
 
 
 
-![w3_3png](.\img\w3_3png.png)
+![w3_3png](img/w3_3.png)
 
 
 
